@@ -1,0 +1,5 @@
+total_purchase,num_transactions,last_transaction_date,extra_col
+100,4,2025-10-01,x
+200,8,2025-10-15,y
+,,2025-09-01,z
+5000,1,2020-01-01,w
