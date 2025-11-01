@@ -63,12 +63,13 @@ def main():
     # Change the path to your dataset location
     filepath = 'your_dataset.csv'
     df = load_data(filepath)
-        perform_eda(df)
+
+    perform_eda(df)
     df = handle_missing_values(df)
     df = detect_outliers(df)
     df = feature_engineering(df)
     df = scale_features(df)
-    
+
     print("Final Data Sample:\n", df.head())
 if __name__ == "__main__":
     main()
